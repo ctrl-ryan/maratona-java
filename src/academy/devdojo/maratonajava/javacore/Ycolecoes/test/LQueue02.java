@@ -21,11 +21,11 @@ public class LQueue02 {
 
         fila.offer("G"); //-> tenta adicionar o elemento à fila e retorna true se foi adicionado com sucesso, ou false se a fila está cheia.
 
-        fila.remove();//-> Remove e retorna o elemento que entrou primeiro. Lança uma exceção se a fila estiver vazia.
+        fila.remove();//-> Remove e retorna o elemento com maior prioridade. Lança uma exceção se a fila estiver vazia.
 
-        fila.poll();//-> Retorna e remove o elemento que entrou primeiro. Retorna "null" se a fila estiver vazia.
+        fila.poll();//-> Retorna e remove o elemento com maior prioridade. Retorna "null" se a fila estiver vazia.
 
-        fila.peek();//-> Retorna o elemento que entrou primeiro, sem removê-lo. Retorna "null" se a fila estiver vazia.
+        fila.peek();//-> Retorna o elemento com maior prioridade, sem removê-lo. Retorna "null" se a fila estiver vazia.
 
 
 
