@@ -44,7 +44,7 @@ public class BWildCard02 {
     public static void printConsultaArray(Animal[] animals) {
 //        animals[0] = new Gato();
 
-        /*<- usando arrays, você pode acabar colocando um Gato em um array de Cachorros, ocasionando em uma exceção.
+        /*Usando arrays, você pode acabar colocando um Gato em um array de Cachorros, ocasionando em uma exceção.
         Isso ocorre, pois não é feito verificações de tipos em tempo de compilação.*/
     }
 
