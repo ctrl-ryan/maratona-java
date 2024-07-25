@@ -11,6 +11,8 @@ public class Dog extends Animal{
 
     @Override
     public String toString() {
-        return "sou um cachorro";
+        return "Dog{" +
+               "name='" + name + '\'' +
+               '}';
     }
 }
