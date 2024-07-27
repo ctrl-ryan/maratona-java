@@ -29,6 +29,7 @@ public class JMap02 {
         consumidorMangaMap.put(consumidor1, manga1);
         consumidorMangaMap.put(consumidor2,manga5);
 
+
         for (Map.Entry<Consumidor , Manga> consumidorMangaEntry: consumidorMangaMap.entrySet()){
             System.out.printf("Consumidor: %s \nMangá: %s%n\n",consumidorMangaEntry.getKey().getNome(),consumidorMangaEntry.getValue().getNome());
         }
