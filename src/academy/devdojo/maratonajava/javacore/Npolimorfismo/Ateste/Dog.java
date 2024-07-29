@@ -1,6 +1,14 @@
 package academy.devdojo.maratonajava.javacore.Npolimorfismo.Ateste;
 
 public class Dog extends Animal{
+    public Dog(String name) {
+        super(name);
+    }
+
+    public Dog() {
+        super();
+    }
+
     @Override
     void makeNoise() {
         System.out.println("auau");
