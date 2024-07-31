@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.ZZAclassesinternas;
 
-public class AExternal01 {
+public class AOuterClasses01 {
     private String name = "Ryan";
 
     class Internal {
@@ -14,16 +14,16 @@ public class AExternal01 {
 
 
         /// Maneira 1:
-        AExternal01 outterClass = new AExternal01();
+        AOuterClasses01 outterClass = new AOuterClasses01();
         Internal internal = outterClass.new Internal();
         internal.printOutterClassAttribute();
 
         /// Maneira 2:
-        AExternal01 outterClass2 = new AExternal01();
-        AExternal01.Internal internal2 = outterClass2.new Internal();
+        AOuterClasses01 outterClass2 = new AOuterClasses01();
+        AOuterClasses01.Internal internal2 = outterClass2.new Internal();
         internal2.printOutterClassAttribute();
 
         /// Maneira 3:
-        new AExternal01().new Internal().printOutterClassAttribute();
+        new AOuterClasses01().new Internal().printOutterClassAttribute();
     }
 }
