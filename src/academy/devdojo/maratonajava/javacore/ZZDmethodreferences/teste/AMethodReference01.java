@@ -18,6 +18,7 @@ public class AMethodReference01 {
 //posso implementar a lógica "anime1.getTitle().compareTo(anime2.getTitle())" como um método de alguma classe, e chamar o método dessa classe usando method reference:
 
         animes.sort(AnimeComparators::compareByTitle);
+        //
 
 
 
