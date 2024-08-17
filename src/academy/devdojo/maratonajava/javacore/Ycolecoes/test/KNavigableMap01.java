@@ -7,9 +7,7 @@ import java.util.TreeMap;
 public class KNavigableMap01 {
 
     public static void main(String[] args) {
-/*----------------------------------------------------------------------------------------------------
-Navigable deve ser usado para referenciar uma classe que utilize Comparable ou Comparator para ordenar os objetos que ela implementa.
-----------------------------------------------------------------------------------------------------*/
+//Navigable deve ser usado para referenciar uma classe que utilize Comparable ou Comparator para ordenar os objetos que ela implementa.
 
         NavigableMap<String, String> map = new TreeMap<>();
         map.put("C", "Letra C");
