@@ -47,23 +47,23 @@ public class Manga implements Comparable<Manga> {
 
     @Override
     public int compareTo(Manga outroManga) {
-  /* Lógica a se aplicar:
-
-      se this.id > outroManga.id -> return 1;
-      se this.id == outroManda.id -> return 0;
-      se this.id < outroManda.id -> return -1;
-
-   Aplicando a lógica:
-
-      return this.id > outroManga.getId() ? 1 : this.id == outroManga.getId()? 0 : -1;
-
-   ou então:
-
+//    Lógica a se aplicar:
+//
+//      se this.id > outroManga.id -> return 1;
+//      se this.id == outroManda.id -> return 0;
+//      se this.id < outroManda.id -> return -1;
+//
+//   Aplicando a lógica:
+//
+//      return this.id > outroManga.getId() ? 1 : this.id == outroManga.getId()? 0 : -1;
+//
+//   ou então:
+//
         return this.id.compareTo(outroManga.getId());//<- ordenando por ID.
-        return this.nome.compareTo(outroManga.getNome()); <- Ordenar por nome.
-        return Double.compare(preco, outroManga.getPreco());//<- Ordenando por preço;
-*/
-        return Double.valueOf(preco).compareTo(outroManga.getPreco()); //<- usando o por preço
+//        return this.nome.compareTo(outroManga.getNome()); <- Ordenar por nome.
+//        return Double.compare(preco, outroManga.getPreco());//<- Ordenando por preço;
+//
+//        return Double.valueOf(preco).compareTo(outroManga.getPreco()); //<- usando o por preço
     }
 
     public Long getId() {

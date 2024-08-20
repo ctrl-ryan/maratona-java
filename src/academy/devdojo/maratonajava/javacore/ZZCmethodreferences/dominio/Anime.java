@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.ZZDmethodreferences.dominio;
+package academy.devdojo.maratonajava.javacore.ZZCmethodreferences.dominio;
 
 public class Anime {
     private String title;

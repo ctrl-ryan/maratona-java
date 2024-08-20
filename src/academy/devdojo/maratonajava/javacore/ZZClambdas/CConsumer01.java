@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class CConsumer01 {
-
-
     public static void main(String[] args) {
 //* A interface Consumer é uma interface funcional que nao possui retorno.
 

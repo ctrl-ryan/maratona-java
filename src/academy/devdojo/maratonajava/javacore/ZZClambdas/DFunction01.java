@@ -12,6 +12,7 @@ public class DFunction01 {
 
         //Chamando o método conversor, passando uma lista de strings, e uma classe que implementa function, sobrescrevendo seu método apply para converter uma string para um Integer (Usando lambdas).
         List<Integer> conversor = conversor(strings, palavra -> Integer.valueOf(palavra));
+
         System.out.println(conversor);
 
 

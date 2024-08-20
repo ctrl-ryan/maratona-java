@@ -42,6 +42,8 @@ public class ALambdas01 {
 
         Predicate<Integer> predicate2 = inteiro -> inteiro.equals(10);
 
+
+        //!ADENDO: Lambdas só funcionam para interfaces funcionais. Quando um método pede uma interface funcional como argumento, a sua lambda deve implementar exatamente o que interface que o método pede faz.
     }
 
     public static <T> void teste (Predicate<T> predicate){}
